@@ -277,7 +277,8 @@
 }
 
 #content .about-text {
-  margin: 15px 20%;
+  margin: 0 20%;
+  padding-top: 25px;
   font-size: 15px;
   text-align: justify;
   /* justify: căn đều 2 bên */
