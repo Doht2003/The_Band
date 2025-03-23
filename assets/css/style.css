@@ -95,7 +95,7 @@
   left: 0;
   right: 0;
   height: 46px;
-  background-color: #0000006c;
+  background-color: #000000b0;
   z-index: 1;
 }
 
@@ -154,7 +154,6 @@
 
 #nav .subnav a {
   color: #000;
-  opacity: 20%;
   padding: 0 12px;
   line-height: 38px;
 }
