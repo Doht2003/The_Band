@@ -122,7 +122,7 @@
 
 #nav > li > a {
   color: #fff;
-  opacity: 100%;
+  opacity: 100% !important;
   text-transform: uppercase;
   /* viết hoa */
 }
@@ -142,7 +142,7 @@
 #nav .subnav li:hover a {
   color: #000;
   background-color: #ccc;
-  opacity: 100%;
+  opacity: 100% !important;
 }
 
 #nav .subnav {
