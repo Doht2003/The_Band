@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* 
 1. Từ ngoài vào trong
 2. Từ trên xuống dưới
