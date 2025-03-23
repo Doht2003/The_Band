@@ -473,9 +473,11 @@
 }
 
 /* Contact */
+.contact{
+  margin: 0 10%;
+}
 .contact .contact-title {
   padding: 64px;
-  margin: 0 10%;
   font-weight: 700;
   font-size: 48px;
   color: #000;
