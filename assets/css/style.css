@@ -86,9 +86,6 @@
 
 /* Main */
 
-#main {
-}
-
 #header {
   position: fixed;
   top: 0;
@@ -231,10 +228,6 @@
 }
 
 /* Content */
-
-#content {
-}
-
 #content .content-section {
   max-width: 800px;
   max-width: 100%;
@@ -473,9 +466,6 @@
 }
 
 /* Contact */
-.contact{
-  margin: 0 10%;
-}
 .contact .contact-title {
   padding: 64px;
   font-weight: 700;
@@ -488,6 +478,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
+  margin: 0 10%;
 }
 
 form p{
@@ -533,13 +524,6 @@ form .submit button {
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
-}
-
-
-/* Map section */
-
-.map-section img {
-  width: 100%;
 }
 
 /* Footer section */
