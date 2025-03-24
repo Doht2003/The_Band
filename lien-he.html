@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Liên Hệ</title>
+<link rel="stylesheet" href="CSS/lien-he.css">
+<link rel="stylesheet" href="IMG/logo-den.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+	<nav>
+		<div class="container">
+			<div class="menu">
+				<div class="row">
+					<div class="col-4">
+						<ul>
+							<li><a href="ve-chung-toi.html">Giới Thiệu</a>
+								<ul>
+									<li><a href="ve-chung-toi.html">Về chúng tôi</a></li>
+									<li><a href="nghe-thuat-thu-cong.html">Nghệ thuật thủ công</a></li>
+								</ul>
+							</li>
+							<li><a href="san-pham.html">Sản Phẩm</a></li>
+						  <li><a href="Collection.html">Collection</a>
+							  <ul>
+							  	<li><a href="bau-cua-giao-y.html">Bầu Cua Ý Giao</a></li>
+							  	<li><a href="SaiGonopoly.html"> SaiGonopoly</a></li>
+							  	<li><a href="Lumina-dice-poker"> Lumina Dice Pokcer</a></li>
+							  </ul>
+							
+							</li>
+                        </ul>
+					
+					</div>
+					<div class="col-4">
+					<ul>
+						<a href="index.html"><img src="IMG/logo-den.png" alt="" class="img-100" width="50px"></a>
+					</ul>
+					</div>
+					
+					<div class="col-4">
+						<div class="row align-items-center">
+						<ul>
+							<li><a href="khuyen-mai.html">Khuyến mãi</a></li>
+							<li><a href="feedback.html">Feedback</a></li>
+							<li><a href="lien-he.html">Liên hệ</a></li>
+						</ul>
+						<div class="icon">
+							<a href="#"><span class="material-symbols-outlined">search</span></a>
+							<a href="#"><span class="material-symbols-outlined">shopping_bag</span></a>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+		</div>
+	</nav>
+	
+	
+	<section id="vung1">
+	<div class="container">
+		<div class="row" style="margin-top: 5%">
+			<div class="col-12">
+				<h2 align="center">Liên hệ ngay</h2></div>
+			</div>
+		</div>
+	</section>
+	<section id="vung2"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+			<h4 align="center">Liên hệ</h4>
+				<p align="center"><b>Hotline:</b> 079 218 7221</p>
+				<p align="center"><b>Thời gian làm việc</b>: 9:30 - 18:00, Thứ 2 - Thứ 6</p>
+			</div>
+			<div class="col-6">
+				<h4 align="center">Email</h4>
+				<p align="center"><b>CSKH:</b> customerservice@maztermind.vn</p>
+				<p align="center"><b>Truyền thông:</b> marketing@maztermind.vn</p>
+				<p align="center"><b>Hợp tác bán sỉ:</b>sales@maztermind.vn </p>
+			</div>
+		</div>
+		</div>
+	
+	</section>
+	
+	
+	<section id="vung3" style="margin-top: 5%">
+		<div class="container">
+		<div class="row align-items-center justify-around">
+					<div class="col-7">
+					<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="IMG/lienhe1.webp" style="width:100%" alt="">
+</div>
+
+<div class="mySlides fade">
+  <img src="IMG/lienhe2.webp" alt="" style="width:100%">
+</div>
+						
+<div class="mySlides fade">
+  <img src="IMG/lienhe5.jpg" alt="" style="width:100%">
+</div>
+						
+<div class="mySlides fade">
+  <img src="IMG/lienhe4.jpg" alt="" style="width:100%">
+</div>						
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div style="text-align:center">
+  	<span class="dot" onclick="currentSlide(1)"></span> 
+  	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		</div>
+		<div class="col-1"></div>
+			<div class="col-4">
+				<h2>Hệ thống showroom</h2>
+</div>
+			</div>
+		  </div>
+	
+	</section>
+	
+	<section id="vung4" style=" margin-top: 5%">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3 align="center"><b>GẶP MAZTERMIND TẠI</b> </h3></div>
+			</div>
+			<div class="row align-items-center justify-around">
+				<div class="col-6">
+				<p><b>1. The Craft House Nguyễn Trãi - Maztermind Showroom</b><br>
+Lầu 1, 28 Nguyễn Trãi, Phường Bến Thành, Quận 1, TP.HCM.
+(+84) 909 991 042</p>
+			<p><b>2. The Craft House Central Nguyễn Huệ</b>
+<br>
+107 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP.HCM.
+(+84) 384 789 763</p>
+			<p><b>3. The Craft House Đồng Khởi</b><br>
+
+32 Đồng Khởi, Phường Bến Nghé, Quận 1, TP.HCM.
+(+84) 919 962 320</p>
+			<p><b>4. The Craft Hpouse Nhà Chung</b><br>
+
+19 Nhà chung, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội.
+(+84) 2462 920 919</p>
+				</div>
+			<div class="col-5">
+				<div class="map" style="align-content: flex-end">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.104289088084!2d106.6925465!3d10.7709614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f95075e4b17%3A0x501998e9fe4e96af!2sMaztermind!5e0!3m2!1svi!2s!4v1705897182817!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			</div>
+				<div class="col-1"></div>
+		</div>
+			</div>
+	</section>
+</body>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-4" align="left">
+				<h3>Đăng ký</h3>
+					<p><b>Công ty TNHH Maztermind</b></p>
+					<p><b>Địa chỉ: </b> 6/10 CMT8, P.Bến Thành, Q1, TP HCM</p>
+					<p><b>GPKD: </b> 0317015950, cấp ngày 05/11/2021, <br> tại sở KH&DT TP HCM</p>
+					<a href="http://online.gov.vn/Home/WebDetails/68255"><img src="IMG/logo10.avif" alt=""></a>
+				</div>
+				<!--het col 1-->
+				<div class="col-2" align="left">
+				 <p><b>Về chúng tôi</b></p>
+     <a href=""> <p>Giới thiệu</p></a>
+      <a href=""><p>Sản phẩm</p></a>
+     <a href=""><p>Khuyến mãi</p> </a>
+     <p>Cam kết</p>
+     <p>Press</p>
+     <a href=""> <p>Blog</p></a>
+				</div>
+				<!--het col 2-->
+				<div class="col-2" align="left">
+				 <p><b>Theo dõi</b></p>
+
+     <a href="https://www.facebook.com/Maztermind.Boardgame"> <p>Facebook</p></a>
+      <a href="https://www.instagram.com/maztermindvn/"><p>Instagram</p></a>
+     <a href="https://www.pinterest.com/maztermindglobal/"> <p>Pinterest</p></a>
+      <a href="https://www.youtube.com/@maztermindvn"><p>Youtube</p></a>
+				</div>
+				<!--het col 3-->
+				<div class="col-2" align="left">
+				 <p><b>Chính sách</b></p>
+
+     <p>Đổi trả</p>
+     <p>Giao hàng</p>
+     <p>Bảo mật</p>
+     <p>Liên hệ</p>
+				</div>
+				<!--het col 4-->
+				<div class="col-2" align="left">
+				 <p><b>Hợp tác</b></p>
+
+     <p>Quà tặng doanh nghiệp</p>
+     <p>Đối tác mua sỉ</p>
+     <p>Thiết kế theo yêu cầu</p>
+      <a href="pdf/Maztermind_Catalogue_2024.pdf"><p>Catalogue sản phẩm</p></a>
+				</div>
+				<!--het col 4-->
+				
+			
+			</div>
+		</div>
+		
+</div>
+
+</html>
